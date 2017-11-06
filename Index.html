@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/Style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="main" href="JS/Main.js">
+  <title>prototype-location</title>
+  
+  
+</head>
+
+
+<body>
+
+<!--First Menu -->
+
+<!-- Tab -> Menu -->
+
+
+
+ <ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#Personal" role="tab">Personal</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Business" role="tab">Business</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Careers" role="tab">Careers</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#Other brand sites" role="tab">Other brand sites</a>
+  </li>
+</ul>
+
+
+<!-- Second Menu + Image -->
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded02">
+ 
+  <a class="navbar-brand" href="Image/Logo.png">
+    <img src="Image/Logo.png" width="auto" class="d-inline-block align-top" alt="Logo">
+  </a>
+   
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shop<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">My Account</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Support</a>
+      </li>
+    </ul>
+    
+    <!--Second Nav -> Search --> 
+     
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 dm-form01" type="text" placeholder="Search Brand.com">
+      <button class="btn btn-link" type="submit"><i class="fa fa-search dm-but-search01" aria-hidden="true"></i></button>
+      <button class="btn btn-link dm-but-enqg" type="submit">EN/QG</button>
+    
+ 
+
+    </form>
+  </div>
+</nav>
+
+<!-- Jumbotron Find your store and form -->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+	 <form class="form-inline">
+		<i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;
+  	 	<h2>Find the Store near you</h2> &nbsp;&nbsp;&nbsp;
+   	 	<input class="form-control mr-sm-2" type="text" placeholder="Type to search: city, adrress, postal code or shopping center">
+   	 	<button type="button" class="btn btn-link" aria-label="Left Align"><i class="fa fa-search fa-2x dm-but-search02" aria-hidden="true"></i>
+    	
+		</button>
+  	 </form>
+  
+  <br>
+  
+  	<!--Filters-->
+  	
+ <div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> All stores
+  </label>
+</div>
+
+<div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Filter 01
+  </label>
+</div>
+
+<div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Filter 02
+  </label>
+</div>
+
+<div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> Filter 03
+  </label>
+</div>
+ 	 
+  	</div>
+  	
+</div>
+
+<br>
+
+<!-- Map -->
+
+   <div class="container">
+    <div id="map_container">
+    	
+	  <div id="map">
+   		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179048.82155480684!2d-73.94474568720342!3d45.477098988811164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e3!4m0!4m0!5e0!3m2!1sen!2sca!4v1499180997093" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
+   			
+   		</iframe>
+    
+    </div>
+    </div>
+	
+	</div>
+	
+	<!-- Store Details -->
+	
+	<div class="container" id="store">
+	
+	<section class="row">
+	   
+	   <div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+	   </div>
+	   
+	   
+	   <div class="col"> 
+	   
+	   	<h2 class="dm-namestore">Name of the store
+	   	</h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   	<p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+	   	
+	   	
+	   </div>
+	   
+	   
+	
+	   	<div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+   
+	   </div>
+	<div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+   
+	   </div>
+	
+	</section>
+
+<section class="row">
+	   
+	   <div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+	   </div>
+	   
+	   
+	   <div class="col"> 
+	   
+	   	<h2 class="dm-namestore">Name of the store
+	   	</h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   	<p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+	   	
+	   	
+	   </div>
+	   
+	   
+	
+	   	<div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+   
+	   </div>
+	<div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+   
+	   </div>
+	
+	</section>
+
+<section class="row">
+	   
+	   <div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+	   </div>
+	   
+	   
+	   <div class="col"> 
+	   
+	   	<h2 class="dm-namestore">Name of the store
+	   	</h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   	<p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+	   	
+	   	
+	   </div>
+	   
+	   
+	
+	   	<div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+   
+	   </div>
+	<div class="col"> 
+	   
+	   <h2 class="dm-namestore">Name of the store
+	   </h2>
+	   
+	   <div class="dm-storedesc">	   
+	   
+	   <p class="dm-addressstore">Address of the store
+		   <br>City of the store
+		   <br>Telephone
+		 </p> 
+		   
+		<p class="dm-timework">
+		   <button type="button" class="btn btn btn-primary btn-sm btn-outline-success d-inline">Open</button>
+		   10:00 am - 09:00pm
+		   </p>
+		   
+		<p class="dm-storesched"><strong>Mon-Fri:</strong> 10:00AM - 09:00PM
+		   <br> <strong>Sat:</strong> 09:30AM - 09:00PM
+		   <br> <strong>Dom:</strong> 11:00AM - 07:00PM
+		 </p> 
+		 
+	   
+	   <p class="dm-typestore">
+		   <i class="fa fa-building-o" aria-hidden="true"></i> Type of the store 01
+		   <br><i class="fa fa-laptop" aria-hidden="true"></i> Type of the store 02
+	   	 </p>
+	    
+		</div>
+   
+	   </div>
+	
+	</section>
+	
+<!-- Footer -->
+
+	 <section class="container dm-footer">
+		 <div class="row">
+			 <div class="col dm-footerlogo">
+				<img class="img-responsive" src="Image/Logo.png" alt="Logo">
+			 
+			 </div>
+			 
+			 <div class="col dm-footercity">
+					<p class="dm-citystore"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&nbsp;Quebec</p>
+			 </div>		
+
+		</div>
+	 
+		<div class="row dm-rowmenu">
+				<ul class="col dm-footercol">
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+			  </ul>
+
+
+				<ul class="col dm-footercol">
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+			  </ul>
+
+				 <ul class="col dm-footercol">
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+				 </ul>
+
+				  <ul class="col dm-footercol">
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+					<li><a href="#">Menu X</a></li>
+				  </ul>
+
+			</div>
+	   	
+	   	<div class="row">
+	   	<p class="col dm-footcopy">Copyright - Daniela Melo - CDI College - Layout Program</p>
+		 
+		 </div>
+		 
+	  </section>
+		
+		
+		
+		
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  
+  </body>
+
+</html>

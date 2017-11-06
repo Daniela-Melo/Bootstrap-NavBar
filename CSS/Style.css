@@ -1,0 +1,259 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+	font-family: 'Raleway', sans-serif;
+	src:url("file:///Macintosh%20HD/Users/danielamelo/Documents/CDI_College/MELO,%20DANIELA%20Layout/Prototype_project/Font/Raleway-Regular.ttf");
+	}
+		
+/* CSS Document */
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* First Menu - Tab */
+
+	
+.nav-tabs{
+	background-color: #4B286D;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	text-decoration: none;
+}
+.nav-link {
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	
+
+}
+
+/* Second Menu - Nav */
+
+/* Nav background */
+
+
+.bg-faded02 {
+	background-color: #FFFFFF;
+	
+}
+/*Search form 01 */
+
+.dm-form01{
+	font-size: 12px;
+	
+}
+	
+
+/*button form 01 */
+
+/*search button */
+
+.dm-but-search01{
+	color: #57A729;
+	
+}
+
+/*EN/GQ button */
+.dm-but-enqg {
+	color: #4B286D;
+	border-bottom: dashed;
+	border-bottom-width: thin;
+}
+
+
+
+/*Jumbotron */
+
+
+/*Jumbotron_text */
+
+.container {
+	align-content: center;
+}
+
+.jumbotron {
+	background-color: #F5F6F7;
+	color: #666666;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: none;
+	
+}
+
+/*Jumbotron_form */
+
+.form { 
+	
+}
+
+.form-inline {
+	
+}
+
+.form-control {
+	
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+}
+.mr-sm-2 {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	width: 100%;
+}
+
+.dm-but-search02{
+	color:#666666
+	
+}
+/*Filters*/
+
+.form-check .form-check-inline {
+		
+}
+	
+	
+
+/*Map */
+
+.map_container {
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*Location Details*/
+
+/*store details*/
+
+.col:hover {
+	border: solid;
+	border-color: #F5F6F7;
+}
+
+/*name*/
+
+.col {
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.col:hover .dm-namestore {
+	background-color: #666666;
+	color: white;	
+}
+
+.dm-namestore{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size:100%;
+	padding: 10%;
+}
+
+.dm-storedesc{
+	padding: 10%;
+}
+/*address and phone*/
+.dm-addressstore{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100%;
+	text-align: left;
+	font-size:90%;
+}
+
+/*schedule*/
+
+.dm-timework{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100%;
+	text-align: left;
+	font-size:80%;
+	
+	
+}
+
+.dm-storesched {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100%;
+	text-align: left;
+	font-size:70%;
+	
+}
+/*type*/
+.dm-typestore{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100%;
+	text-align: left;
+	font-size: 60%;
+	
+}
+
+
+/*footer*/
+
+.dm-footer{
+	background-color:#666666;
+	margin:0px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 100%;
+	text-align: center;
+	font-size: 90%;
+	
+}
+
+.dm-footerlogo{
+	text-align: left;
+	
+}
+
+.dm-footercity{
+	text-align: right;
+	
+}
+
+.dm-rowmenu ul {
+	text-decoration: none;
+	list-style-type: none;	
+	}
+
+.dm-rowmenu ul li a {
+	text-decoration: none;
+	color:#F5F6F7;
+	list-style-type: none;
+	
+	
+}
+
+.dm-footercol {
+	border:none;
+	
+		
+}
+.dm-footcopy{
+	text-align: left;
+	color: #F5F6F7;
+	font-style: italic;
+	text-align: center;
+
+}
